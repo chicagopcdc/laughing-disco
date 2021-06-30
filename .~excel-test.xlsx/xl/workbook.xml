@@ -7,9 +7,9 @@
       <x15ac:absPath xmlns:x15ac="http://schemas.microsoft.com/office/spreadsheetml/2010/11/ac" url="/Users/debra/UChicago/Excel/laughing-disco/"/>
     </mc:Choice>
   </mc:AlternateContent>
-  <xr:revisionPtr revIDLastSave="0" documentId="13_ncr:1_{1A48FB09-ED3A-1F48-B798-B6384E316A79}" xr6:coauthVersionLast="47" xr6:coauthVersionMax="47" xr10:uidLastSave="{00000000-0000-0000-0000-000000000000}"/>
+  <xr:revisionPtr revIDLastSave="0" documentId="13_ncr:1_{BEDBE4F9-0C6D-A24A-8619-9C7CBDEDABD7}" xr6:coauthVersionLast="47" xr6:coauthVersionMax="47" xr10:uidLastSave="{00000000-0000-0000-0000-000000000000}"/>
   <bookViews>
-    <workbookView xWindow="-50460" yWindow="6360" windowWidth="15960" windowHeight="18080" xr2:uid="{00000000-000D-0000-FFFF-FFFF00000000}"/>
+    <workbookView xWindow="0" yWindow="500" windowWidth="35840" windowHeight="20760" xr2:uid="{00000000-000D-0000-FFFF-FFFF00000000}"/>
   </bookViews>
   <sheets>
     <sheet name="Sheet 1" sheetId="1" r:id="rId1"/>
