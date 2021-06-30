@@ -1,4 +1,8 @@
 .DS_Store
 .git
 
+# excel temp files
 ~*.xlsx
+
+# pre-commit/post-commit hook flag
+.commit
