@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="15" uniqueCount="15">
+  <si>
+    <t>D Venckus Test Sheet</t>
+  </si>
+  <si>
+    <t>Test 1</t>
+  </si>
+  <si>
+    <t>Test 2</t>
+  </si>
+  <si>
+    <t>Test 3</t>
+  </si>
+  <si>
+    <t>Test Row 1</t>
+  </si>
+  <si>
+    <t>Test Row 2</t>
+  </si>
+  <si>
+    <t>Test Row 3</t>
+  </si>
+  <si>
+    <t>Test Row 4</t>
+  </si>
+  <si>
+    <t>Test Row 5</t>
+  </si>
+  <si>
+    <t>Test Row 6</t>
+  </si>
+  <si>
+    <t>Test Row 7</t>
+  </si>
+  <si>
+    <t>Test Row 8</t>
+  </si>
+  <si>
+    <t>Test Row 9</t>
+  </si>
+  <si>
+    <t>Test Row 10</t>
+  </si>
+  <si>
+    <t>Sums</t>
+  </si>
+</sst>

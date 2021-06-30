@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" xmlns:x16r2="http://schemas.microsoft.com/office/spreadsheetml/2015/02/main" xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision" mc:Ignorable="x14ac x16r2 xr">
+  <fonts count="5" x14ac:knownFonts="1">
+    <font>
+      <sz val="10"/>
+      <color indexed="8"/>
+      <name val="Helvetica Neue"/>
+    </font>
+    <font>
+      <sz val="12"/>
+      <color indexed="8"/>
+      <name val="Helvetica Neue"/>
+    </font>
+    <font>
+      <b/>
+      <sz val="10"/>
+      <color indexed="9"/>
+      <name val="Helvetica Neue"/>
+    </font>
+    <font>
+      <sz val="10"/>
+      <color indexed="9"/>
+      <name val="Helvetica Neue Medium"/>
+    </font>
+    <font>
+      <b/>
+      <sz val="10"/>
+      <color indexed="9"/>
+      <name val="Helvetica Neue"/>
+      <family val="2"/>
+    </font>
+  </fonts>
+  <fills count="3">
+    <fill>
+      <patternFill patternType="none"/>
+    </fill>
+    <fill>
+      <patternFill patternType="gray125"/>
+    </fill>
+    <fill>
+      <patternFill patternType="solid">
+        <fgColor indexed="15"/>
+        <bgColor auto="1"/>
+      </patternFill>
+    </fill>
+  </fills>
+  <borders count="16">
+    <border>
+      <left/>
+      <right/>
+      <top/>
+      <bottom/>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="10"/>
+      </left>
+      <right style="thin">
+        <color indexed="11"/>
+      </right>
+      <top style="thin">
+        <color indexed="10"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="12"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="11"/>
+      </left>
+      <right style="thin">
+        <color indexed="11"/>
+      </right>
+      <top style="thin">
+        <color indexed="10"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="12"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="11"/>
+      </left>
+      <right style="thin">
+        <color indexed="10"/>
+      </right>
+      <top style="thin">
+        <color indexed="10"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="12"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="10"/>
+      </left>
+      <right style="thin">
+        <color indexed="13"/>
+      </right>
+      <top style="thin">
+        <color indexed="12"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="13"/>
+      </left>
+      <right style="thin">
+        <color indexed="14"/>
+      </right>
+      <top style="thin">
+        <color indexed="12"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="14"/>
+      </left>
+      <right style="thin">
+        <color indexed="14"/>
+      </right>
+      <top style="thin">
+        <color indexed="12"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="14"/>
+      </left>
+      <right style="thin">
+        <color indexed="10"/>
+      </right>
+      <top style="thin">
+        <color indexed="12"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="10"/>
+      </left>
+      <right style="thin">
+        <color indexed="13"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="13"/>
+      </left>
+      <right style="thin">
+        <color indexed="14"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="14"/>
+      </left>
+      <right style="thin">
+        <color indexed="14"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="14"/>
+      </left>
+      <right style="thin">
+        <color indexed="10"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="14"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="10"/>
+      </left>
+      <right style="thin">
+        <color indexed="13"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="10"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="13"/>
+      </left>
+      <right style="thin">
+        <color indexed="14"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="10"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="14"/>
+      </left>
+      <right style="thin">
+        <color indexed="14"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="10"/>
+      </bottom>
+      <diagonal/>
+    </border>
+    <border>
+      <left style="thin">
+        <color indexed="14"/>
+      </left>
+      <right style="thin">
+        <color indexed="10"/>
+      </right>
+      <top style="thin">
+        <color indexed="14"/>
+      </top>
+      <bottom style="thin">
+        <color indexed="10"/>
+      </bottom>
+      <diagonal/>
+    </border>
+  </borders>
+  <cellStyleXfs count="1">
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="0" applyNumberFormat="0" applyFill="0" applyBorder="0" applyProtection="0">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+  </cellStyleXfs>
+  <cellXfs count="33">
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1" applyFont="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="2" fillId="0" borderId="1" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="49" fontId="2" fillId="0" borderId="2" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="2" fillId="0" borderId="2" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="2" fillId="0" borderId="3" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="49" fontId="3" fillId="0" borderId="4" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="6" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="7" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="49" fontId="3" fillId="0" borderId="8" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="2" borderId="10" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="2" borderId="11" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="10" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="11" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="3" fillId="0" borderId="8" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="9" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="2" borderId="9" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="3" fillId="0" borderId="12" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="13" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="14" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="15" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1">
+      <alignment horizontal="center" vertical="center"/>
+    </xf>
+    <xf numFmtId="2" fontId="0" fillId="0" borderId="6" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="2" fontId="0" fillId="2" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="2" fontId="0" fillId="0" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="2" borderId="9" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="2" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="9" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="5" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="6" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="1" fontId="0" fillId="0" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+    <xf numFmtId="0" fontId="4" fillId="0" borderId="2" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
+      <alignment vertical="top" wrapText="1"/>
+    </xf>
+  </cellXfs>
+  <cellStyles count="1">
+    <cellStyle name="Normal" xfId="0" builtinId="0"/>
+  </cellStyles>
+  <dxfs count="0"/>
+  <tableStyles count="0"/>
+  <colors>
+    <indexedColors>
+      <rgbColor rgb="FF000000"/>
+      <rgbColor rgb="FFFFFFFF"/>
+      <rgbColor rgb="FFFF0000"/>
+      <rgbColor rgb="FF00FF00"/>
+      <rgbColor rgb="FF0000FF"/>
+      <rgbColor rgb="FFFFFF00"/>
+      <rgbColor rgb="FFFF00FF"/>
+      <rgbColor rgb="FF00FFFF"/>
+      <rgbColor rgb="FF000000"/>
+      <rgbColor rgb="FF323232"/>
+      <rgbColor rgb="FFADADAD"/>
+      <rgbColor rgb="FFD6D6D6"/>
+      <rgbColor rgb="FF89847F"/>
+      <rgbColor rgb="FFA6A29F"/>
+      <rgbColor rgb="FFE3E3E3"/>
+      <rgbColor rgb="FFF4F9F8"/>
+      <rgbColor rgb="00800000"/>
+      <rgbColor rgb="00008000"/>
+      <rgbColor rgb="00000080"/>
+      <rgbColor rgb="00808000"/>
+      <rgbColor rgb="00800080"/>
+      <rgbColor rgb="00008080"/>
+      <rgbColor rgb="00C0C0C0"/>
+      <rgbColor rgb="00808080"/>
+      <rgbColor rgb="009999FF"/>
+      <rgbColor rgb="00993366"/>
+      <rgbColor rgb="00FFFFCC"/>
+      <rgbColor rgb="00CCFFFF"/>
+      <rgbColor rgb="00660066"/>
+      <rgbColor rgb="00FF8080"/>
+      <rgbColor rgb="000066CC"/>
+      <rgbColor rgb="00CCCCFF"/>
+      <rgbColor rgb="00000080"/>
+      <rgbColor rgb="00FF00FF"/>
+      <rgbColor rgb="00FFFF00"/>
+      <rgbColor rgb="0000FFFF"/>
+      <rgbColor rgb="00800080"/>
+      <rgbColor rgb="00800000"/>
+      <rgbColor rgb="00008080"/>
+      <rgbColor rgb="000000FF"/>
+      <rgbColor rgb="0000CCFF"/>
+      <rgbColor rgb="00CCFFFF"/>
+      <rgbColor rgb="00CCFFCC"/>
+      <rgbColor rgb="00FFFF99"/>
+      <rgbColor rgb="0099CCFF"/>
+      <rgbColor rgb="00FF99CC"/>
+      <rgbColor rgb="00CC99FF"/>
+      <rgbColor rgb="00FFCC99"/>
+      <rgbColor rgb="003366FF"/>
+      <rgbColor rgb="0033CCCC"/>
+      <rgbColor rgb="0099CC00"/>
+      <rgbColor rgb="00FFCC00"/>
+      <rgbColor rgb="00FF9900"/>
+      <rgbColor rgb="00FF6600"/>
+      <rgbColor rgb="00666699"/>
+      <rgbColor rgb="00969696"/>
+      <rgbColor rgb="00003366"/>
+      <rgbColor rgb="00339966"/>
+      <rgbColor rgb="00003300"/>
+      <rgbColor rgb="00333300"/>
+      <rgbColor rgb="00993300"/>
+      <rgbColor rgb="00993366"/>
+      <rgbColor rgb="00333399"/>
+      <rgbColor rgb="00333333"/>
+    </indexedColors>
+  </colors>
+  <extLst>
+    <ext xmlns:x14="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main" uri="{EB79DEF2-80B8-43e5-95BD-54CBDDF9020C}">
+      <x14:slicerStyles defaultSlicerStyle="SlicerStyleLight1"/>
+    </ext>
+    <ext xmlns:x15="http://schemas.microsoft.com/office/spreadsheetml/2010/11/main" uri="{9260A510-F301-46a8-8635-F512D64BE5F5}">
+      <x15:timelineStyles defaultTimelineStyle="TimeSlicerStyleLight1"/>
+    </ext>
+  </extLst>
+</styleSheet>
