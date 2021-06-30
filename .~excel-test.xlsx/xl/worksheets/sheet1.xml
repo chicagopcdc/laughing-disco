@@ -6,7 +6,7 @@
       <pane xSplit="1" ySplit="2" topLeftCell="B3" activePane="bottomRight" state="frozen"/>
       <selection pane="topRight"/>
       <selection pane="bottomLeft"/>
-      <selection pane="bottomRight" activeCell="K20" sqref="K20"/>
+      <selection pane="bottomRight" activeCell="G3" sqref="G3"/>
     </sheetView>
   </sheetViews>
   <sheetFormatPr baseColWidth="10" defaultColWidth="16.33203125" defaultRowHeight="20" customHeight="1" x14ac:dyDescent="0.15"/>
@@ -153,17 +153,17 @@
         <v>10</v>
       </c>
       <c r="B9" s="26">
-        <v>1</v>
+        <v>4</v>
       </c>
       <c r="C9" s="27">
-        <v>8</v>
+        <v>15</v>
       </c>
       <c r="D9" s="27">
         <v>3</v>
       </c>
       <c r="E9" s="30">
         <f>SUM(B9,C9,D9)</f>
-        <v>12</v>
+        <v>22</v>
       </c>
       <c r="F9" s="12"/>
       <c r="G9" s="13"/>
@@ -210,14 +210,14 @@
         <v>3</v>
       </c>
       <c r="C12" s="25">
-        <v>2</v>
+        <v>6</v>
       </c>
       <c r="D12" s="25">
         <v>3</v>
       </c>
       <c r="E12" s="30">
         <f>SUM(B12,C12,D12)</f>
-        <v>8</v>
+        <v>12</v>
       </c>
       <c r="F12" s="10"/>
       <c r="G12" s="11"/>
