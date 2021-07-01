@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <calcChain xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
-  <c r="E12" i="1" l="1"/>
+  <c r="E10" i="1" l="1"/>
+  <c r="E8" i="1"/>
+  <c r="E7" i="1"/>
+  <c r="E6" i="1"/>
+  <c r="E4" i="1"/>
+  <c r="E3" i="1"/>
+  <c r="E11" i="1"/>
+  <c r="E12" i="1"/>
   <c r="E9" i="1"/>
   <c r="E5" i="1"/>
 </calcChain>

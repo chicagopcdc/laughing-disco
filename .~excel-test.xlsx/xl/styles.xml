@@ -283,7 +283,7 @@
       <alignment vertical="top" wrapText="1"/>
     </xf>
   </cellStyleXfs>
-  <cellXfs count="33">
+  <cellXfs count="30">
     <xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1">
       <alignment vertical="top" wrapText="1"/>
     </xf>
@@ -345,15 +345,6 @@
       <alignment vertical="top" wrapText="1"/>
     </xf>
     <xf numFmtId="0" fontId="0" fillId="0" borderId="15" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1">
-      <alignment vertical="top" wrapText="1"/>
-    </xf>
-    <xf numFmtId="2" fontId="0" fillId="0" borderId="6" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
-      <alignment vertical="top" wrapText="1"/>
-    </xf>
-    <xf numFmtId="2" fontId="0" fillId="2" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">
-      <alignment vertical="top" wrapText="1"/>
-    </xf>
-    <xf numFmtId="2" fontId="0" fillId="0" borderId="10" xfId="0" applyNumberFormat="1" applyFont="1" applyBorder="1" applyAlignment="1">
       <alignment vertical="top" wrapText="1"/>
     </xf>
     <xf numFmtId="0" fontId="0" fillId="2" borderId="9" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1">

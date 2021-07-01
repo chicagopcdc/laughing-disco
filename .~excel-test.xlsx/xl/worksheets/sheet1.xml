@@ -6,7 +6,7 @@
       <pane xSplit="1" ySplit="2" topLeftCell="B3" activePane="bottomRight" state="frozen"/>
       <selection pane="topRight"/>
       <selection pane="bottomLeft"/>
-      <selection pane="bottomRight" activeCell="G3" sqref="G3"/>
+      <selection pane="bottomRight" activeCell="F3" sqref="F3"/>
     </sheetView>
   </sheetViews>
   <sheetFormatPr baseColWidth="10" defaultColWidth="16.33203125" defaultRowHeight="20" customHeight="1" x14ac:dyDescent="0.15"/>
@@ -16,15 +16,15 @@
   </cols>
   <sheetData>
     <row r="1" spans="1:7" ht="27.75" customHeight="1" x14ac:dyDescent="0.15">
-      <c r="A1" s="32" t="s">
+      <c r="A1" s="29" t="s">
         <v>0</v>
       </c>
-      <c r="B1" s="32"/>
-      <c r="C1" s="32"/>
-      <c r="D1" s="32"/>
-      <c r="E1" s="32"/>
-      <c r="F1" s="32"/>
-      <c r="G1" s="32"/>
+      <c r="B1" s="29"/>
+      <c r="C1" s="29"/>
+      <c r="D1" s="29"/>
+      <c r="E1" s="29"/>
+      <c r="F1" s="29"/>
+      <c r="G1" s="29"/>
     </row>
     <row r="2" spans="1:7" ht="20.5" customHeight="1" x14ac:dyDescent="0.15">
       <c r="A2" s="2"/>
@@ -37,7 +37,7 @@
       <c r="D2" s="3" t="s">
         <v>3</v>
       </c>
-      <c r="E2" s="31" t="s">
+      <c r="E2" s="28" t="s">
         <v>14</v>
       </c>
       <c r="F2" s="4"/>
@@ -47,16 +47,19 @@
       <c r="A3" s="6" t="s">
         <v>4</v>
       </c>
-      <c r="B3" s="28">
+      <c r="B3" s="25">
         <v>1</v>
       </c>
-      <c r="C3" s="29">
+      <c r="C3" s="26">
         <v>2</v>
       </c>
-      <c r="D3" s="29">
+      <c r="D3" s="26">
         <v>3</v>
       </c>
-      <c r="E3" s="21"/>
+      <c r="E3" s="27">
+        <f>SUM(B3,C3,D3)</f>
+        <v>6</v>
+      </c>
       <c r="F3" s="7"/>
       <c r="G3" s="8"/>
     </row>
@@ -64,16 +67,19 @@
       <c r="A4" s="9" t="s">
         <v>5</v>
       </c>
-      <c r="B4" s="24">
+      <c r="B4" s="21">
         <v>1</v>
       </c>
-      <c r="C4" s="25">
+      <c r="C4" s="22">
         <v>2</v>
       </c>
-      <c r="D4" s="25">
+      <c r="D4" s="22">
         <v>3</v>
       </c>
-      <c r="E4" s="22"/>
+      <c r="E4" s="27">
+        <f>SUM(B4,C4,D4)</f>
+        <v>6</v>
+      </c>
       <c r="F4" s="10"/>
       <c r="G4" s="11"/>
     </row>
@@ -81,18 +87,18 @@
       <c r="A5" s="9" t="s">
         <v>6</v>
       </c>
-      <c r="B5" s="26">
-        <v>1</v>
+      <c r="B5" s="23">
+        <v>11</v>
       </c>
-      <c r="C5" s="27">
+      <c r="C5" s="24">
         <v>5</v>
       </c>
-      <c r="D5" s="27">
+      <c r="D5" s="24">
         <v>3</v>
       </c>
-      <c r="E5" s="30">
+      <c r="E5" s="27">
         <f>SUM(B5,C5,D5)</f>
-        <v>9</v>
+        <v>19</v>
       </c>
       <c r="F5" s="12"/>
       <c r="G5" s="13"/>
@@ -101,16 +107,19 @@
       <c r="A6" s="9" t="s">
         <v>7</v>
       </c>
-      <c r="B6" s="24">
+      <c r="B6" s="21">
         <v>1</v>
       </c>
-      <c r="C6" s="25">
+      <c r="C6" s="22">
         <v>2</v>
       </c>
-      <c r="D6" s="25">
+      <c r="D6" s="22">
         <v>3</v>
       </c>
-      <c r="E6" s="22"/>
+      <c r="E6" s="27">
+        <f>SUM(B6,C6,D6)</f>
+        <v>6</v>
+      </c>
       <c r="F6" s="10"/>
       <c r="G6" s="11"/>
     </row>
@@ -118,16 +127,19 @@
       <c r="A7" s="9" t="s">
         <v>8</v>
       </c>
-      <c r="B7" s="26">
+      <c r="B7" s="23">
         <v>1</v>
       </c>
-      <c r="C7" s="27">
+      <c r="C7" s="24">
         <v>2</v>
       </c>
-      <c r="D7" s="27">
+      <c r="D7" s="24">
         <v>3</v>
       </c>
-      <c r="E7" s="23"/>
+      <c r="E7" s="27">
+        <f>SUM(B7,C7,D7)</f>
+        <v>6</v>
+      </c>
       <c r="F7" s="12"/>
       <c r="G7" s="13"/>
     </row>
@@ -135,16 +147,19 @@
       <c r="A8" s="9" t="s">
         <v>9</v>
       </c>
-      <c r="B8" s="24">
+      <c r="B8" s="21">
         <v>1</v>
       </c>
-      <c r="C8" s="25">
+      <c r="C8" s="22">
         <v>2</v>
       </c>
-      <c r="D8" s="25">
+      <c r="D8" s="22">
         <v>3</v>
       </c>
-      <c r="E8" s="22"/>
+      <c r="E8" s="27">
+        <f>SUM(B8,C8,D8)</f>
+        <v>6</v>
+      </c>
       <c r="F8" s="10"/>
       <c r="G8" s="11"/>
     </row>
@@ -152,18 +167,18 @@
       <c r="A9" s="9" t="s">
         <v>10</v>
       </c>
-      <c r="B9" s="26">
-        <v>4</v>
+      <c r="B9" s="23">
+        <v>9</v>
       </c>
-      <c r="C9" s="27">
+      <c r="C9" s="24">
         <v>15</v>
       </c>
-      <c r="D9" s="27">
+      <c r="D9" s="24">
         <v>3</v>
       </c>
-      <c r="E9" s="30">
+      <c r="E9" s="27">
         <f>SUM(B9,C9,D9)</f>
-        <v>22</v>
+        <v>27</v>
       </c>
       <c r="F9" s="12"/>
       <c r="G9" s="13"/>
@@ -172,16 +187,19 @@
       <c r="A10" s="9" t="s">
         <v>11</v>
       </c>
-      <c r="B10" s="24">
+      <c r="B10" s="21">
         <v>1</v>
       </c>
-      <c r="C10" s="25">
+      <c r="C10" s="22">
         <v>2</v>
       </c>
-      <c r="D10" s="25">
+      <c r="D10" s="22">
         <v>3</v>
       </c>
-      <c r="E10" s="22"/>
+      <c r="E10" s="27">
+        <f>SUM(B10,C10,D10)</f>
+        <v>6</v>
+      </c>
       <c r="F10" s="10"/>
       <c r="G10" s="11"/>
     </row>
@@ -189,16 +207,19 @@
       <c r="A11" s="9" t="s">
         <v>12</v>
       </c>
-      <c r="B11" s="26">
-        <v>1</v>
+      <c r="B11" s="23">
+        <v>4</v>
       </c>
-      <c r="C11" s="27">
+      <c r="C11" s="24">
         <v>2</v>
       </c>
-      <c r="D11" s="27">
+      <c r="D11" s="24">
         <v>3</v>
       </c>
-      <c r="E11" s="23"/>
+      <c r="E11" s="27">
+        <f>SUM(B11,C11,D11)</f>
+        <v>9</v>
+      </c>
       <c r="F11" s="12"/>
       <c r="G11" s="13"/>
     </row>
@@ -206,16 +227,16 @@
       <c r="A12" s="9" t="s">
         <v>13</v>
       </c>
-      <c r="B12" s="24">
+      <c r="B12" s="21">
         <v>3</v>
       </c>
-      <c r="C12" s="25">
+      <c r="C12" s="22">
         <v>6</v>
       </c>
-      <c r="D12" s="25">
+      <c r="D12" s="22">
         <v>3</v>
       </c>
-      <c r="E12" s="30">
+      <c r="E12" s="27">
         <f>SUM(B12,C12,D12)</f>
         <v>12</v>
       </c>
