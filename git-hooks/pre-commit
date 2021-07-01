@@ -1,0 +1,66 @@
+#!/bin/bash
+#
+# pre-commit: have git handle xlsx files by deflating them and storing
+#                   the XML in the repository, not the zip file. 
+#
+#                   companion to post-commit-excel
+#
+
+# -- config -- #
+TMP_PREFIX='.~' # prefix XML directory--should NOT conflict with 
+                   # anything in your repo
+
+# -- end config -- #
+
+echo
+echo "=== Pre-commit XLSX processing ===="
+
+#
+#   unpack_xlsx
+#
+unpack_xlsx () {
+    # unzip the xlsx file 
+    echo "Unpack the xlsx file"
+    if [ -e "$1" ]; then
+        if [ -e "${TMP_PREFIX}$1" ]; then rm -rf "${TMP_PREFIX}$1"; fi
+        unzip "$1" -d "${TMP_PREFIX}$1"
+    else
+        # abort the commit if this isn't an excel file somehow
+        echo "$1 is not an xlsx file. this is a bug."
+        exit 3
+    fi
+}
+
+#
+#   reformat_xmls
+#
+reformat_xmls () {
+    # reformat the xml file to many lines
+    echo "Reformat the xml files"
+    find "$1" -name "*.xml" -type f -exec xmllint --output '{}' --format '{}' \;
+}
+
+
+#
+#   main 
+#
+if [ ! -e "./.commit" ]; then
+  # unpack all the zipfiles (if the xlsx has been staged)
+  for i in $(git diff --name-only --cached -- *.xlsx); do 
+      dir=$(dirname "$i")
+      file=$(basename "$i")
+      cd "$dir"
+      unpack_xlsx "$file"
+      reformat_xmls "${TMP_PREFIX}$file"
+      cd -
+
+      # stage the XML files
+      git add "$dir/${TMP_PREFIX}$file/"
+      
+      # --- no need to add the *.xlsx file again ---
+      # git add "$dir/$file"
+  done
+fi
+
+echo "=== End of pre-commit processing ==="
+echo

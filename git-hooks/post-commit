@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+# post-commit
+#
+
+# -- config -- #
+TMP_PREFIX='.~' # prefix XML directory--should NOT conflict with 
+                # anything in your repo
+
+# -- end config -- #
+
+
+#
+#   main 
+#
+if [ ! -e "./.commit" ]; then
+    
+    echo
+    echo "=== Post-commit XLSX processing ===="
+
+    # set commit flag for when this hook fires while we
+    # add the expanded xlsx files to the last commit
+    touch "./.commit"
+
+    # add the new stuff
+    NEW_FILES=$(git status --porcelain | awk '{print $2}')
+    echo -n "git add: \n$NEW_FILES"
+    echo -n "$NEW_FILES" | xargs git add
+
+    # this will trigger the hook to be fired again, we will ignore it
+    git commit --amend -C HEAD --no-verify
+
+    # remove the commit flag
+    rm -f "./.commit"
+
+    echo "=== End of post-commit processing ==="
+    echo
+fi
+
+
